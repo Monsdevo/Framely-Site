@@ -43,16 +43,7 @@ export function Hero() {
                     No complex editing. No wasted time. Just enter a prompt, choose a model, and get a share-ready video instantly.
                 </motion.p>
 
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.3 }}
-                    className="mt-12 flex items-center gap-4"
-                >
-                    <div className="p-1 rounded-full border border-white/10 bg-black/50 backdrop-blur-md">
-                        <img src="/logo.png" alt="Framely App Icon" className="w-[80px] h-[80px] rounded-[18px] shadow-2xl" />
-                    </div>
-                </motion.div>
+
 
             </Container>
         </section>

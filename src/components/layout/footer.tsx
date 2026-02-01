@@ -11,9 +11,7 @@ export function Footer() {
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5">
                     <div className="col-span-2 lg:col-span-2">
                         <Link href="/" className="flex items-center gap-2 mb-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-red-500 to-red-800 font-bold text-white">
-                                F
-                            </div>
+                            <img src="/logo.png" alt="Framely Logo" className="h-8 w-8 object-contain" />
                             <span className="text-lg font-bold tracking-tight text-white">Framely</span>
                         </Link>
                         <p className="max-w-xs text-sm">
