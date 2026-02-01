@@ -9,9 +9,7 @@ export function Navbar() {
         <header className="fixed top-0 z-50 w-full border-b border-white/5 bg-background/60 backdrop-blur-xl">
             <Container className="flex h-16 items-center justify-between">
                 <Link href="/" className="flex items-center gap-2">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-red-500 to-red-800 font-bold text-white shadow-lg shadow-red-500/20">
-                        F
-                    </div>
+                    <img src="/logo.png" alt="Framely Logo" className="h-8 w-8 object-contain" />
                     <span className="text-lg font-bold tracking-tight text-white">Framely</span>
                 </Link>
 

@@ -11,8 +11,13 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Framely - Instant Social Video Creation",
+  title: "Framely | Viral Creator",
   description: "Create premium short-form videos for social media in one click with Framely.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
