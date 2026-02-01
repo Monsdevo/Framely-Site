@@ -19,7 +19,7 @@ export function Hero() {
                     className="mb-8 flex items-center gap-2 rounded-full border border-white/10 bg-zinc-900/60 pl-1 pr-3 py-1 backdrop-blur-md"
                 >
                     <span className="flex h-2 w-2 rounded-full bg-orange-500 mx-1"></span>
-                    <span className="text-[10px] font-bold tracking-wider text-zinc-300 uppercase">Coming soon to TestFlight</span>
+                    <span className="text-[10px] font-bold tracking-wider text-zinc-300 uppercase">Coming soon to App Store</span>
                 </motion.div>
 
                 <motion.h1
@@ -47,23 +47,11 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
-                    className="mt-12 p-1.5 rounded-full border border-white/5 bg-zinc-900/60 backdrop-blur-xl flex items-center gap-1 shadow-2xl"
+                    className="mt-12 flex items-center gap-4"
                 >
-                    <Button
-                        className="rounded-full bg-white text-black hover:bg-zinc-200 px-8 h-14 text-base font-bold shadow-lg transition-all hover:scale-105 active:scale-95"
-                        onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
-                    >
-                        <svg className="mr-2 h-5 w-5" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 79.9c14.7 39.4 39.2 81.3 69.8 111.9 23.3 22.8 51.5 22.1 71.2 7 20.2-15 48.7-15 70.4 0 25.1 16.2 51.1 11.2 73.4-6.4 25.4-20 54.4-60 54.4-60s-40.1-15.6-38.3-77.2zm-58.4-177.3c15-18.8 24.3-43.2 21-69.5-20.9 1.1-46.7 14.3-61.9 32.5-13.6 15.9-22 40-19.4 62.4 23.3 1.8 47.9-10.4 60.3-25.4z" /></svg>
-                        Join Beta Waitlist
-                    </Button>
-
-                    <Button
-                        variant="ghost"
-                        className="rounded-full text-white/90 hover:bg-white/5 px-6 h-14 text-base font-medium transition-colors"
-                    >
-                        <span className="mr-2 flex h-6 w-6 items-center justify-center rounded-full bg-[#FF6154] text-white font-bold text-[10px]">P</span>
-                        Product Hunt
-                    </Button>
+                    <div className="p-1 rounded-full border border-white/10 bg-black/50 backdrop-blur-md">
+                        <img src="/logo.png" alt="Framely App Icon" className="w-[80px] h-[80px] rounded-[18px] shadow-2xl" />
+                    </div>
                 </motion.div>
 
             </Container>

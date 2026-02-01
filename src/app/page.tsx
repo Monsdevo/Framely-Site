@@ -5,7 +5,6 @@ import { HowItWorks } from "@/components/sections/how-it-works";
 import { WhyFramely } from "@/components/sections/why-framely";
 import { Testimonials } from "@/components/sections/testimonials";
 import { TrustedBy } from "@/components/sections/trusted-by";
-import { TestFlightCTA } from "@/components/sections/testflight-cta";
 import { AppShowcase } from "@/components/sections/app-showcase";
 import { Footer } from "@/components/layout/footer";
 
@@ -20,7 +19,6 @@ export default function Home() {
       <div id="how-it-works" />
       <HowItWorks />
       <WhyFramely />
-      <TestFlightCTA />
       <Footer />
     </main>
   );
