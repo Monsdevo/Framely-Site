@@ -32,7 +32,7 @@ export function Footer() {
                         <h3 className="mb-4 text-sm font-semibold text-white">Legal</h3>
                         <ul className="space-y-3 text-sm">
                             <li><Link href="/privacypolicy" className="hover:text-red-400 transition-colors">Privacy</Link></li>
-                            <li><Link href="#" className="hover:text-red-400 transition-colors">Terms</Link></li>
+                            <li><Link href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" className="hover:text-red-400 transition-colors">Terms of Use</Link></li>
                         </ul>
                     </div>
 

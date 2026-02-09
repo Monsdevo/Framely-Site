@@ -6,6 +6,7 @@ import { WhyFramely } from "@/components/sections/why-framely";
 import { Testimonials } from "@/components/sections/testimonials";
 import { TrustedBy } from "@/components/sections/trusted-by";
 import { AppShowcase } from "@/components/sections/app-showcase";
+import { HookLab } from "@/components/sections/hook-lab";
 import { Footer } from "@/components/layout/footer";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <TrustedBy />
       <Testimonials />
+      <HookLab />
       <Features />
       <div id="how-it-works" />
       <HowItWorks />

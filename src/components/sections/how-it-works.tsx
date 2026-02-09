@@ -71,7 +71,7 @@ export function HowItWorks() {
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-600/10 rounded-full blur-[100px] pointer-events-none" />
 
                         <div className="relative w-[320px] rounded-[3rem] border-[8px] border-zinc-900 bg-black overflow-hidden shadow-2xl shadow-red-500/10 rotate-3 transition-transform hover:rotate-0 duration-500">
-                            <img src="/screenshots/create.jpg" alt="Framely Create Screen" className="w-full h-full object-cover" />
+                            <img src="/screenshots/create.png" alt="Framely Create Screen" className="w-full h-full object-cover" />
                             {/* Glare */}
                             <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent pointer-events-none" />
                         </div>
